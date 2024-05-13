@@ -1,0 +1,4 @@
+Company -> employees -> List -> Person
+Person -> age -> Tuple -> int
+Person -> at -> Union -> str|Caw|int
+[]

@@ -1,0 +1,13 @@
+digraph {
+	Address
+	Caw
+	Caw -> NAW
+	Company
+	Company -> Address
+	Company -> Person
+	Company -> Caw
+	NAW
+	Person
+	Person -> Address
+	Person -> Caw
+}

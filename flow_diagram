@@ -1,0 +1,17 @@
+digraph {
+	BaseModel
+	Address
+	street [label="street: <class 'str'>"]
+	Address -> street
+	city [label="city: <class 'str'>"]
+	Address -> city
+	zip_code [label="zip_code: <class 'str'>"]
+	Address -> zip_code
+	Person
+	name [label="name: <class 'str'>"]
+	Person -> name
+	age [label="age: <class 'str'>"]
+	Person -> age
+	address [label="address: <class 'str'>"]
+	Person -> address
+}
